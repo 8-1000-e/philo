@@ -6,7 +6,7 @@
 #    By: edubois- <edubois-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/21 11:39:27 by edubois-          #+#    #+#              #
-#    Updated: 2025/03/21 12:04:28 by edubois-         ###   ########.fr        #
+#    Updated: 2025/04/01 13:42:57 by edubois-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,6 +14,9 @@ NAME = philo
 
 SRCS =	srcs/main.c\
 		srcs/utils/utils.c\
+		srcs/handle_philo.c\
+		srcs/utils/init.c\
+		srcs/make_actions.c\
 
 OBJS 			:= $(SRCS:.c=.o)
 
